@@ -1,0 +1,238 @@
+.container {
+    margin: 0 auto;
+    max-width: 1050px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.content__des{
+    margin-left: 150px;
+}
+.content__dess{
+    margin-right: 150px;
+}
+.content__des-name p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content__des-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.content__des {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.video__content {
+    display: flex;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #333;
+}
+
+.video__header {
+    width: 460px;
+    padding: 112px 0 112px 0;
+
+}
+
+.video__header-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.video__header-des {
+    max-width: 463px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.video__sale-card {
+    width: 238px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.video_sale-img img {
+    border-radius: 10px;
+}
+
+.sale-card_sale {
+    width: 52px;
+    height: 24px;
+    background: #E74040;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.sale-card_icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video__sale-care_sale {
+    margin-top: -300px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.video__sale-bot {
+    max-width: 238px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sale-bot_star {
+    width: 238px;
+    display: flex;
+    gap: 8px;
+}
+
+.sale-bot_prices {
+    display: flex;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #BDBDBD;
+}
+
+.sale-bot_more {
+    width: 122px;
+    height: 22px;
+    line-height: 22px !important;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #96BB7C;
+    border-radius: 37px;
+    cursor: pointer;
+}
+
+.our__content {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.our__content-avt {
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.content-avt_des {
+    width: 320px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.content-avt-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.content-avt-work {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.news {
+    background-color: #FFF2F3;
+    height: 594px;
+}
+
+.news-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 460px;
+    padding-top: 160px;
+}
+
+.news__name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.news__from {
+    width: 688px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 80px;
+}
+
+input {
+    width: 510px;
+    height: 58px;
+    padding: 0 2rem 0;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+.subscribe {
+    display: flex;
+    width: 107px;
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 5px;
+    background: #96BB7C;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
